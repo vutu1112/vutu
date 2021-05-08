@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56546329791",
+    "project_id": "tuschats",
+    "storage_bucket": "tuschats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56546329791:android:2c7dcaf29b3e4d9251f20a",
+        "android_client_info": {
+          "package_name": "com.example.tuschats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56546329791-sor0j4ei8fdqu6grse0hans41hi3l693.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt2g3jiAUgAHDejUFrh_HhLr5ngPEFXBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56546329791-sor0j4ei8fdqu6grse0hans41hi3l693.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

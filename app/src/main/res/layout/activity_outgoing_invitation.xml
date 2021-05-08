@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9cd1f0"
+    android:orientation="vertical"
+    tools:context=".Activities.OutgoingInvitationActivity">
+    <ImageView
+        android:id="@+id/imgmeeting1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="20dp"
+        app:tint="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sending Metting invitation"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgviewcall"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/avatar"
+            android:layout_gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textUser"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_marginTop="240dp"
+            android:layout_gravity="center"
+            android:id="@+id/imgstop"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/no"
+            android:src="@drawable/ic_baseline_close_24"
+            app:tint="@color/white" />
+    </LinearLayout>
+</LinearLayout>
